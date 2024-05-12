@@ -1,0 +1,11 @@
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "M-Abdul-Rafeh_AngryBirds"
+    property "sonar.organization", "m-abdul-rafeh"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
